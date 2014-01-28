@@ -1,11 +1,45 @@
 ﻿body {
-    background-color:skyblue;
+    background-color:lightblue;
+    min-width:277px; // suppose you want minimun width of 1000px*/
+   /*_width: expression( document.body.clientWidth > 1000 ? "1000px" : "auto" );*/ /* sets max-width for IE */
 }
+
 .container {
     background-color:pink;
-    border:3px double darkblue;
+    border:1px solid darkblue;
     margin-left:5%;
     margin-right:5%;
     margin-top:3%;
     margin-bottom:3%;
+   box-shadow: 3px 3px 10px 5px;
+}
+.skyblue{
+    background-color:skyblue;
+}
+
+.titulo{
+    background-color:lightgoldenrodyellow;
+    text-align:center;
+}
+
+.row.sinMargen{
+    margin-left:0px;
+    margin-bottom:0px;
+    max-width:100%
+}
+.costado{
+    width:354px;
+}
+
+footer{
+    font-size:small;
+    font-family:'Berlin Sans FB';
+    background-color:lightgoldenrodyellow;
+     text-align:center;
+}
+
+.articulo{
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:30px;
 }

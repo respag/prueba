@@ -3,24 +3,108 @@
 <head>
     <meta charset="utf-8" />
     <title>Ejemplo</title>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/foundation/5.0.3/css/foundation.css" />
+    <link href="content/foundation/foundation.css" rel="stylesheet" />
+    <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/foundation/5.0.3/css/foundation.css" />-->
     <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />-->
     <link href="content/style.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="small-3  medium-3 large-3 columns">
-                <h5>Ejemplo de AngularJS y Foundation 5</h5>
-            </div>
-            <div class="small-9  medium-9 large-9 columns">
-                <div>
-                    <h1>Ejemplo de AngularJS y d d d d d d d Foundation 5</h1>
+            <div class="small-12 columns">
+                <div id="fixed-div">
+                    Resolución:<span id="anchoPag"></span> x <span id="altPag"></span>
                 </div>
             </div>
         </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
-    <script src="scripts/app.js"></script>
+        <div class="row sinMargen">
+            <div class="small-12 columns titulo">
+                <h1>Ejemplo de AngularJS y Foundation 5</h1>
+            </div>
+        </div>
+        <div class="row sinMargen">
+            <div class="small-7  medium-5  large-4 columns skyblue">
+                <figure>
+                    <img class="costado" src="images/adv-foundation.png" />
+                    <figcaption style="text-align:justify">
+                        <strong>Foundation 5</strong>:<br /><em>
+                            Un conjunto de herramientas gratuitas para crear sitios web y aplicaciones web,
+                            que contiene HTML y plantillas de diseño basado en <strong>CSS</strong> para tipografía, formularios, botones,
+                            navegación y otros componentes de interfaz gráfica, así como también extensiones opcionales de <strong>JavaScript</strong>.
+                        </em>
+                    </figcaption>
+                </figure>
+                <hr />
+                <figure>
+                    <img class="costado" src="images/angular.png" />
+                    <figcaption style="text-align:justify">
+                        <strong>AngularJS</strong>:<br />
+                        <em>
+                            Un framework de <strong>JavaScript</strong> de código abierto, mantenido por Google, que ayuda con la
+                            gestión de lo que se conoce como <strong>SPA</strong> (aplicaciones de una sola página). <br />
+                            Su objetivo es profundizar las aplicaciones basadas en navegador, con capacidades de Modelo-Vista-Controlador
+                            (<strong>MVC</strong>), en un esfuerzo para hacer tanto el desarrollo como las pruebas más fáciles.
+                        </em>
+                    </figcaption>
+                </figure>
+                <hr />
+            </div>
+            <div class="small-5 medium-7 large-8 columns articulo">
+                <div class="row">
+                    <div class="large-12 columns">
+                        <div class="fixed">
+                            <nav class="top-bar" data-topbar data-options="is_hover: false">
+                                <ul class=" title-area">
+                                    <li class="name">
+                                      
+                                    </li>
+                                    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+                                </ul>
+
+                                <section class="top-bar-section">
+                                    <!-- Right Nav Section -->
+                                    <ul class="right">
+                                        <li><a href="#">Right Button Active</a></li>
+                                        <li class="has-dropdown">
+                                            <a href="#">Right Button with Dropdown</a>
+                                            <ul class="dropdown">
+                                                <li><a href="#">First link in dropdown</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                    <!-- Left Nav Section -->
+                                    <ul class="left">
+                                        <li class="active"><a href="#/">Inicio</a></li>
+                                    </ul>
+                                    <ul class="left">
+                                        <li><a href="#/dos">Dos</a></li>
+                                    </ul>
+                                </section>
+                            </nav>
+                        </div>
+                        </div>
+                    </div>
+                    <p>
+                        Este es un ejemplo que utiliza <strong>Foundation 5</strong> y <strong>AngularJS</strong> para crear
+                        una aplicación Web Moderna y adaptiva al dispositivo.
+                    </p>
+                    <div ng-view>
+
+                    </div>
+                </div>
+            </div>
+            <footer class="row sinMargen">
+                <br /><p>&copy;2014 by respag</p>
+            </footer>
+        </div>
+
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>-->
+        <script src="scripts/angular.js"></script>
+        <script src="scripts/angular-route.js"></script>
+        <script src="scripts/jquery-2.1.0.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/0.6.10/fastclick.min.js"></script>
+        <script src="//cdn.jsdelivr.net/foundation/5.0.3/js/foundation.min.js"></script>
+        <script src="scripts/app.js"></script>
 </body>
 </html>
