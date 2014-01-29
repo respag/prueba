@@ -9,19 +9,57 @@
     <link href="content/style.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="row">
+        <div class="large-12 columns">
+            <div class="fixed">
+                <nav class="top-bar" data-topbar data-options="is_hover: false">
+                    <ul class=" title-area">
+                        <li class="name">
+
+                        </li>
+                        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+                    </ul>
+
+                    <section class="top-bar-section">
+                        <!-- Right Nav Section -->
+                        <ul class="right">
+                            <li><a href="#">Right Button Active</a></li>
+                            <li class="has-dropdown">
+                                <a href="#">Right Button with Dropdown</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">First link in dropdown</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!-- Left Nav Section -->
+                        <ul class="left">
+                            <li class="active"><a href="#/">Inicio</a></li>
+                        </ul>
+                        <ul class="left">
+                            <li><a href="#/dos">Dos</a></li>
+                        </ul>
+                    </section>
+                </nav>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
-        <div class="row">
-            <div class="small-12 columns">
-                <div id="fixed-div">
-                    Resolución:<span id="anchoPag"></span> x <span id="altPag"></span>
+        <div class="row sinMargen">
+            <div class="small-12 columns res">
+                <div class="">
+                    <b>Resolución:<span id="anchoPag"></span> x <span id="altPag"></span></b>
                 </div>
             </div>
         </div>
+        <br />
         <div class="row sinMargen">
             <div class="small-12 columns titulo">
                 <h1>Ejemplo de AngularJS y Foundation 5</h1>
             </div>
         </div>
+        <br />
         <div class="row sinMargen">
             <div class="small-7  medium-5  large-4 columns skyblue">
                 <figure>
@@ -50,41 +88,6 @@
                 <hr />
             </div>
             <div class="small-5 medium-7 large-8 columns articulo">
-                <div class="row">
-                    <div class="large-12 columns">
-                        <div class="fixed">
-                            <nav class="top-bar" data-topbar data-options="is_hover: false">
-                                <ul class=" title-area">
-                                    <li class="name">
-                                      
-                                    </li>
-                                    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-                                </ul>
-
-                                <section class="top-bar-section">
-                                    <!-- Right Nav Section -->
-                                    <ul class="right">
-                                        <li><a href="#">Right Button Active</a></li>
-                                        <li class="has-dropdown">
-                                            <a href="#">Right Button with Dropdown</a>
-                                            <ul class="dropdown">
-                                                <li><a href="#">First link in dropdown</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-
-                                    <!-- Left Nav Section -->
-                                    <ul class="left">
-                                        <li class="active"><a href="#/">Inicio</a></li>
-                                    </ul>
-                                    <ul class="left">
-                                        <li><a href="#/dos">Dos</a></li>
-                                    </ul>
-                                </section>
-                            </nav>
-                        </div>
-                        </div>
-                    </div>
                     <p>
                         Este es un ejemplo que utiliza <strong>Foundation 5</strong> y <strong>AngularJS</strong> para crear
                         una aplicación Web Moderna y adaptiva al dispositivo.
@@ -94,9 +97,11 @@
                     </div>
                 </div>
             </div>
+        <br />
             <footer class="row sinMargen">
                 <br /><p>&copy;2014 by respag</p>
             </footer>
+        <br>
         </div>
 
         <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>-->

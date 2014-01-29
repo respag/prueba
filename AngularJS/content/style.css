@@ -5,7 +5,7 @@
 }
 
 .container {
-    background-color:pink;
+    /*background-color:white;*//*#428BCA;*/
     border:1px solid darkblue;
     margin-left:5%;
     margin-right:5%;
@@ -18,8 +18,11 @@
 }
 
 .titulo{
-    background-color:lightgoldenrodyellow;
+    background-color:#AFCEE9;
     text-align:center;
+    border:1px solid darkblue;
+    border-radius:30px 30px;
+    box-shadow:1px 5px 1px;
 }
 
 .row.sinMargen{
@@ -34,12 +37,21 @@
 footer{
     font-size:small;
     font-family:'Berlin Sans FB';
-    background-color:lightgoldenrodyellow;
-     text-align:center;
+    background-color:#AFCEE9;
+    text-align:center;
+    border:1px solid darkblue;
+    border-radius:30px 30px;
+    height:50px;
+      box-shadow:1px 5px 1px;
 }
 
 .articulo{
     padding-left:15px;
     padding-right:15px;
     padding-top:30px;
+}
+
+.res{
+    background-color:#13A7C6;
+    color:darkblue;
 }
