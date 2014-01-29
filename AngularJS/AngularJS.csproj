@@ -62,6 +62,8 @@
     <Content Include="images\adv-foundation.png" />
     <Content Include="images\angular.png" />
     <Content Include="index.html" />
+    <Content Include="nueva.html" />
+    <Content Include="prueba.html" />
     <Content Include="scripts\angular-animate.js" />
     <Content Include="scripts\angular-animate.min.js" />
     <Content Include="scripts\angular-cookies.js" />
@@ -83,6 +85,7 @@
     <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\app.js" />
     <Content Include="content\style.css" />
+    <Content Include="scripts\apps2.js" />
     <Content Include="scripts\foundation\foundation.abide.js" />
     <Content Include="scripts\foundation\foundation.accordion.js" />
     <Content Include="scripts\foundation\foundation.alert.js" />
